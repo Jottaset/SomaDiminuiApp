@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SomaDiminuiApp"
+             x:Class="SomaDiminuiApp.MainPage">
+    
+    <StackLayout >
+        
+        <!-- Place new controls here -->
+        <Label Text="0"
+               FontSize="120"
+               HorizontalOptions="Center"
+               x:Name="label_valor" 
+               FontAttributes="Bold" 
+               
+               />
+        
+        <StackLayout HorizontalOptions="Center"
+                     Orientation="Horizontal"
+               >
+        
+        <Button Text="Soma"
+                WidthRequest="180"
+                HeightRequest="80"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                Clicked="Button_Soma"
+                
+               />
+        
+        <Button Text="Subtrai"
+                WidthRequest="180"
+                HeightRequest="80"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                Clicked="Button_Subtrai"
+                
+               />
+            
+        </StackLayout>
+       
+    </StackLayout>
+</ContentPage>
